@@ -27,6 +27,8 @@ Independent mix levels for each delay and dry into main mix out, with additional
 
 PCB layout and gerbers are included for a front panel if required
 
+![Module front panel](./images/panel.jpg)
+
 ## Availability
 
 *TBD*
