@@ -19,9 +19,9 @@ Join switch to have delay 1 CV/knob control affect delay 2 as well
 Independent full wet outputs for each delay
 Independent mix levels for each delay and dry into main mix out, with additional overdrive on the delays when pushed past about 1 o'clock
 
-## Block Diagram
+## Signal Flow
 
-*TODO*
+![Signal flow diagram](./images/signalflow.png)
 
 ## Front Panel
 

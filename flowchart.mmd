@@ -1,0 +1,22 @@
+graph LR
+    A[Input]:::audio ==>|Gain| B(Overdrive)
+    B:::audio ==> |Dry Level| J
+    B:::audio ==> C(Input Mixing)
+    C:::audio ==> D((Delay 1))
+    D:::audio ==> H(Delay 1 Wet Output):::audio
+    E:::audio ==> I(Delay 2 Wet Output):::audio
+    D:::audio ==> |Delay 1 Level| F(Overdrive)
+    E:::audio ==> |Delay 2 Level| F
+    F:::audio ==> G(Delay Mix)
+    G:::audio ==> |Feedback Level| C
+    G:::audio ==> J(Output Mix):::audio
+    H ==> K{Series/Parallel Switch}
+    C:::audio ==> K
+    K:::audio ==> E((Delay 2))
+    L[Delay 1 CV Input]:::cv --> |Attenuverter| O[Delay 1 Time CV]:::cv --> D
+    N[Delay 1 Time Control]:::cv --> O
+    P[Delay 2 CV Input]:::cv --> |Attenuverter| S[Delay 2 Time CV]:::cv --> E
+    R[Delay 2 Time Control]:::cv --> S
+    O --> T{Join Switch}:::cv .-> S
+    classDef audio fill:#1fdde0
+    classDef cv fill:#1fe03f
