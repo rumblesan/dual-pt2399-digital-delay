@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.0-0)"
     },
-    "CreationDate": "2022-01-01T22:44:04+00:00"
+    "CreationDate": "2022-01-15T14:42:35+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "dual-digi-delay",
       "GUID": "6475616c-2d64-4696-9769-2d64656c6179",
-      "Revision": "r02"
+      "Revision": "r03"
     },
     "Size": {
       "X": 148.894,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.254,
-      "PadToTrack": 0.254,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.254,
       "MinLineWidth": 0.635,
       "TrackToRegion": 0.508,
