@@ -1,0 +1,65 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Vendor,Note,SKU
+1,Unpolarized capacitor,C,C2 C3 C7 C8 C9 C11 C17 C18 C19 C20 C23 C24,10pF,C_Rect_L7.0mm_W3.5mm_P5.00mm,12,,,
+2,Unpolarized capacitor,C,C13 C14,100pF,C_Rect_L7.0mm_W3.5mm_P5.00mm,2,,,
+3,Unpolarized capacitor,C,C27 C28 C49 C50,560pF,C_Rect_L7.0mm_W3.5mm_P5.00mm,4,,,
+4,Unpolarized capacitor,C,C30 C33 C35 C37 C52 C54 C55 C57,100nF,C_Rect_L7.0mm_W3.5mm_P5.00mm,8,,,
+5,Polarized capacitor,C_Polarized,C25 C46,10uF,CP_Radial_D5.0mm_P2.50mm,2,,,
+6,Polarized capacitor,C_Polarized,C58 C60,10uF,CP_Radial_D6.3mm_P2.50mm,2,,,
+7,Polarized capacitor,C_Polarized,C29 C48,47uF,CP_Radial_D8.0mm_P3.50mm,2,,,
+8,Unpolarized capacitor,C,C1 C4 C5 C6 C10 C12 C15 C16 C21 C22 C26 C40 C41 C47 C56 C59,100nF (X7R),C_Rect_L7.0mm_W3.5mm_P5.00mm,16,,,
+9,Unpolarized capacitor,C,C36 C45,10nF (polypropylene),C_Rect_L7.0mm_W3.5mm_P5.00mm,2,,,
+10,Polarized capacitor,C_Polarized,C38 C39 C42 C43,10uF (Audio),CP_Radial_D5.0mm_P2.50mm,4,,,
+11,Unpolarized capacitor,C,C32 C51,470nF (X7R),C_Rect_L7.0mm_W3.5mm_P5.00mm,2,,,
+12,Unpolarized capacitor,C,C31 C34 C44 C53,4n7F (polypropylene),C_Rect_L7.0mm_W3.5mm_P5.00mm,4,,,
+13,Diode,D,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12,1N4148,Diode_THT_P7.62mm_Horizontal,12,,,
+14,Diode,D,D15 D16,1N5818,Diode_THT_P7.62mm_Horizontal,2,,,
+15,Diode,D,D13 D14,1n4001,Diode_THT_P7.62mm_Horizontal,2,,,
+16,Potentiometer,R_Potentiometer,DELAY_CV_ATTV1 DELAY_CV_ATTV2,100kB,Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles,2,Thonk,,
+17,Potentiometer,R_Potentiometer,DELAY_TIME1 DELAY_TIME2,25kB,Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles,2,Thonk,,
+18,Potentiometer,R_Potentiometer,DRY_LEVEL1 FEEDBACK1 INPUT_GAIN1 WET_LEVEL1 WET_LEVEL2,50kB,Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles,5,Thonk,,
+19,A Johnson panel mount banana jack,BananaJack_PanelMount,J1 J2 J3 J4 J5 J6,BananaJack_PanelMount,BananaJack_THT_JohnsonCinch_108-09,6,Mouser,BananaJack,108-0901-1
+20,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Female,J10 J12 J15 J17 J19,Delay Audio,PinSocket_1x04_P2.54mm_Vertical,5,,,
+21,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J16 J24 J26 J30 J32,Delay Send/Recv,PinHeader_1x04_P2.54mm_Vertical,5,,,
+22,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_Male,J23 J25 J28 J31,Delay Time Control,PinHeader_1x02_P2.54mm_Vertical,4,,,
+23,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Female,J13 J14,Delay1_CV,PinSocket_1x06_P2.54mm_Vertical,2,,,
+24,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03_Female,J11,Delay2 Source,PinSocket_1x03_P2.54mm_Vertical,1,,,
+25,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03_Male,J29,Delay2 Source,PinHeader_1x03_P2.54mm_Vertical,1,,,
+26,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Male,J27 J33,Delay2_CV,PinHeader_1x06_P2.54mm_Vertical,2,,,
+27,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J20,Main Power,Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,1,,,
+28,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_Female,J7 J8 J9 J18,Output Audio,PinSocket_1x02_P2.54mm_Vertical,4,,,
+29,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92",2N3904,Q1 Q2 Q3 Q4 Q5 Q6,2N3904,TO-92_Inline_Wide,6,,,
+30,Resistor,R,R1 R4 R8,330r,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,3,,,
+31,Resistor,R,R19 R20,470r,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,,,
+32,Resistor,R,R24 R25 R50 R51,1k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,4,,,
+33,Resistor,R,R26 R29,2k2,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,,,
+34,Resistor,R,R54 R66,2k7,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,,,
+35,Resistor,R,R2 R7 R46 R48 R52 R53 R55 R56 R57 R58 R63 R64 R65 R67 R68 R69,10k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,16,,,
+36,Resistor,R,R3 R11,15k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,,,
+37,Resistor,R,R30 R32,22k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,,,
+38,Resistor,R,R17,33k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,,,
+39,Resistor,R,R12 R13 R40 R41 R42 R43,47k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,6,,,
+40,Resistor,R,R44 R45,82k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,,,
+41,Resistor,R,R5 R6 R9 R10 R14 R15 R16 R18 R27 R28 R33 R34 R37 R38 R39 R47 R49 R59 R61,100k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,19,,,
+42,Resistor,R,R21 R31 R35 R36,220k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,4,,,
+43,Resistor,R,R22 R23 R60 R62,560k,Resistor_THT_L6.3mm_D2.5mm_P10.16mm_Horizontal,4,,,
+44,"Switch, single pole double throw",SW_SPDT,SW1 SW2,SW_SPDT,Toggle_Switch_100SP1T1B3M2QE,2,Mouser,Delay 2 Input CV Join,612-100SP1T1B3M2QEH
+45,"Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",LM7805_TO220,U9,LM7805_TO220,TO-220-3_Horizontal_TabDown,1,,,
+46,Echo Processor IC,PT2399,U6 U8,PT2399,DIP-16_W7.62mm_Socket,2,,,
+47,"Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8",TL072,U1 U2 U3 U7,TL072,DIP-8_W7.62mm_Socket,4,,,
+48,"Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14",TL074,U4 U5,TL074,DIP-14_W7.62mm_Socket,2,,,
+
+
+
+
+
+Component Groups:,48
+Component Count:,202
+Fitted Components:,202
+Number of PCBs:,1
+Total components:,202
+Schematic Version:,v03
+Schematic Date:,2022-01-13
+PCB Variant:,udefault
+BoM Date:,"Sunday, 16 January 2022 at 21:44:34"
+Schematic Source:,dual-digi-delay.kicad_sch
+KiCad Version:,Eeschema (6.0.0-0)
