@@ -30,7 +30,7 @@ PCB layout and gerbers are included for a front panel if required
 
 ![Module front panel](./images/panel.jpg)
 
-## Build Information
+## Part Information
 
 Everything *should* be pretty clear and obvious as far as construction goes, but the following may be useful info.
 
@@ -47,6 +47,12 @@ Designed to work with the Johnson banana jacks, but others probably work.
 ### Power Connector
 
 The PCB footprint for the power connector is for a Molex KK-254 connector. In reality I've assumed people with likely have a flying cable with whatever they use on the end.
+
+## Construction Notes
+
+The boards sandwich together with all components inside. This means that all the capacitors on the delay board need to be lying flat against the PCB.
+
+Depending on what part you use for the Join switch, the lower leg from that may extend far enough to hit IC U5 on the mid board, so snip it off.
 
 ## Availability
 
