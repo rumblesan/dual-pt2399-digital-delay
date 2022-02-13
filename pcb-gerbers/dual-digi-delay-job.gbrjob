@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.0-0)"
     },
-    "CreationDate": "2022-01-16T21:43:16+00:00"
+    "CreationDate": "2022-02-13T10:21:48+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "dual-digi-delay",
       "GUID": "6475616c-2d64-4696-9769-2d64656c6179",
-      "Revision": "r03"
+      "Revision": "r04"
     },
     "Size": {
       "X": 148.894,
