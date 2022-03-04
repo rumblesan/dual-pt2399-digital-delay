@@ -6,8 +6,8 @@
 
   (title_block
     (title "Dual PT2399 Digi Delay")
-    (date "2022-02-11")
-    (rev "v04")
+    (date "2022-03-04")
+    (rev "v05")
     (comment 2 "creativecommons.org/licenses/by/4.0/")
     (comment 3 "License: CC BY 4.0")
     (comment 4 "Author: Guy John")
