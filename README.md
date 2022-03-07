@@ -26,7 +26,11 @@ Inspired equally by the Serge WAD and the Strega, it does clean pretty well but 
 
 ## Front Panel
 
-PCB layout and gerbers are included for a front panel if required
+In the [panel](./panel) folder there are Front Panel Design files that can be used to order aluminium panels. One has the oval holes that fit the Johnson banana plugs, whilst the other just has circular holes.
+
+There are also gerber files for a PCB front panel if required.
+
+The Affinity Design and Inkscake SVG files are included in the repository as well in case you want to redesign things.
 
 ![Module front panel](./images/panel.jpg)
 
@@ -55,6 +59,10 @@ The boards sandwich together with all components inside. This means that all the
 ![Delay board construction](./images/delay-board-construction.jpg)
 
 Depending on what part you use for the Join switch, the lower leg from that may extend far enough to hit IC U5 on the mid board, so snip it off.
+
+## Fixes
+
+Some of the older revisions have some minor errors. Check the [Fixes](./fixes.md) file for more information.
 
 ## Availability
 
