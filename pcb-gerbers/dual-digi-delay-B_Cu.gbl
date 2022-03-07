@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0-0)*%
-%TF.CreationDate,2022-02-13T10:21:47+00:00*%
-%TF.ProjectId,dual-digi-delay,6475616c-2d64-4696-9769-2d64656c6179,r04*%
+%TF.CreationDate,2022-03-07T15:03:06+00:00*%
+%TF.ProjectId,dual-digi-delay,6475616c-2d64-4696-9769-2d64656c6179,r05*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2022-02-13 10:21:47*
+G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2022-03-07 15:03:06*
 %MOMM*%
 %LPD*%
 G01*
@@ -1785,21 +1785,6 @@ X105156000Y-44450000D03*
 X102616000Y-44450000D03*
 %TD*%
 D20*
-%TO.P,J16,1,Pin_1*%
-%TO.N,/InputMix/INPUT_MIX*%
-X102870000Y-79883000D03*
-D21*
-%TO.P,J16,2,Pin_2*%
-%TO.N,Net-(J11-Pad2)*%
-X105410000Y-79883000D03*
-%TO.P,J16,3,Pin_3*%
-%TO.N,/DelayOut/DELAY2_WET*%
-X107950000Y-79883000D03*
-%TO.P,J16,4,Pin_4*%
-%TO.N,/DelayOut/DELAY1_WET*%
-X110490000Y-79883000D03*
-%TD*%
-D20*
 %TO.P,J17,1,Pin_1*%
 %TO.N,/PT2399-Delay-1/AUDIO_IN*%
 X153162000Y-79883000D03*
@@ -2195,6 +2180,21 @@ D21*
 %TO.P,J31,2,Pin_2*%
 %TO.N,GND*%
 X25146000Y-54864000D03*
+%TD*%
+D20*
+%TO.P,J16,1,Pin_1*%
+%TO.N,/InputMix/INPUT_MIX*%
+X102870000Y-79883000D03*
+D21*
+%TO.P,J16,2,Pin_2*%
+%TO.N,Net-(J11-Pad2)*%
+X105410000Y-79883000D03*
+%TO.P,J16,3,Pin_3*%
+%TO.N,/DelayOut/DELAY2_WET*%
+X107950000Y-79883000D03*
+%TO.P,J16,4,Pin_4*%
+%TO.N,/DelayOut/DELAY1_WET*%
+X110490000Y-79883000D03*
 %TD*%
 D20*
 %TO.P,J33,1,Pin_1*%
