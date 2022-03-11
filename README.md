@@ -15,6 +15,7 @@ Inspired equally by the Serge WAD and the Strega, it does clean pretty well but 
  * Switch to have delays in series or parallel
  * Delay can go from short as I think I could manage to well into clicks and squeals territory
  * CV control over delay time of each independently, with attenuverters
+ * CV control has an input range of -5 to +5 volts, which should cover the full range of the delay either way
  * Join switch to have delay 1 CV/knob control affect delay 2 as well
  * Independent full wet outputs for each delay
  * Independent mix levels for each delay and dry into main mix out, with additional overdrive on the delays when pushed past about 1 o'clock
@@ -30,7 +31,7 @@ In the [panel](./panel) folder there are Front Panel Design files that can be us
 
 There are also gerber files for a PCB front panel if required.
 
-The Affinity Design and Inkscake SVG files are included in the repository as well in case you want to redesign things.
+The Affinity Design and Inkscape SVG files are included in the repository as well in case you want to redesign things.
 
 ![Module front panel](./images/panel.jpg)
 
