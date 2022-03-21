@@ -67,7 +67,8 @@ Some of the older revisions have some minor errors. Check the [Fixes](./fixes.md
 
 ## Availability
 
-*TBD*
+[Pusherman](https://pushermanproductions.com/product/4u-rumblesan-dual-pt2399-digital-delay-3-x-pcb-fr4-panel/)
+Synthcube coming soon
 
 ## Contact
 
