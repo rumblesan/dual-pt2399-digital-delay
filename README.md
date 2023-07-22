@@ -21,6 +21,11 @@ Inspired equally by the Serge WAD and the Strega, it does clean pretty well but 
  * Independent mix levels for each delay and dry into main mix out, with additional overdrive on the delays when pushed past about 1 o'clock
  * Feedback can very easily push into self oscillation territory
 
+## Power
+
++12 101ma
+-12 35ma
+
 ## Signal Flow
 
 ![Signal flow diagram](./images/signalflow.png)
