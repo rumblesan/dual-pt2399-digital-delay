@@ -62,13 +62,13 @@ The PCB footprint for the power connector is for a Molex KK-254 connector. In re
 
 The boards sandwich together with all components inside. This means that all the capacitors on the delay board need to be lying flat against the PCB.
 
-![Delay board construction](./images/delay-board-construction.jpg)
+![Delay board construction](./build/images/delay-board-construction.jpg)
 
 Depending on what part you use for the Join switch, the lower leg from that may extend far enough to hit IC U5 on the mid board, so snip it off.
 
 ## Fixes
 
-Some of the older revisions have some minor errors. Check the [Fixes](./fixes.md) file for more information.
+Some of the older revisions have some minor errors. Check the [Fixes](./build/fixes.md) file for more information.
 
 ## Availability
 
